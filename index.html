@@ -79,9 +79,13 @@
         
         .features {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+            justify-content: center;
             gap: 30px;
-            margin-bottom: 40px;
+
+            max-width: 1100px;
+            margin: 0 auto 40px;
+            padding: 20px;
         }
         
         .feature-card {
@@ -213,25 +217,21 @@
             </a>
         </div>
         <br>
-        <div class="features">
             <div class="feature-card">
                 <img src="images/dungeon_01.jpg" alt="Titulo" style="max-width: 100%; height: auto; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
                 <h3>Dungeon Escape</h3>
                 <p style="color: #BBF9FC;">Dungeon Escape es un videojuego que combina elementos de un juego de mesa y minijuegos competitivos.</p>
           <br>
-                
-                <a href="https://play.google.com/store/apps/details?id=com.PanchoStudio.Dungeon_Escape" target="_blank">
+            <a href="https://play.google.com/store/apps/details?id=com.PanchoStudio.Dungeon_Escape" target="_blank">
                 <img src="images/Google_Playstore.png" alt="PlayStore" style="max-width: 25%; height: auto; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
             </a>
             </div>
             <br>
-        <div class="features">
             <div class="feature-card">
                 <img src="images/star_03.jpg" alt="Titulo" style="max-width: 100%; height: auto; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
                 <h3>starlight visitors</h3>
                 <p style="color: #BBF9FC;">Shooter RPG de accion.<br><br>Proximamente.</p>
             </div>
         </div>
-    </div>
 </body>
 </html>
